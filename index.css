@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: #F2FEF9;
+}
+
+#navbar-section {
+   
+}
+
+#menus {
+    box-shadow: 4px 6px rgba(0,0,0,.1);
+}
+
+
+#hero-wrapper {
+    background-image: url('https://cdn.wallpapersafari.com/56/65/J9N0nT.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero-section {  /* HERO SECTION */
+}
+
+#newsletter {
+    background: rgb(67,255,102);
+    background: linear-gradient(315deg, rgba(67,255,102,1) 0%, rgba(255,218,158,1) 100%);
+}
+
+#pay, #items {
+    box-shadow: 0px 8px rgba(0,0,0,.25);
+    background-color: azure;
+}
+
+#apple {
+    box-shadow: 0px 4px rgba(0,0,0,.25);
+    margin-top: 2rem;
+}
+
+#apple:hover {
+    box-shadow: none;
+}
+
+#additem, #shopnow {
+    transition: .3s;
+}
+
+#additem:hover {
+    background-color: rgb(216, 58, 0);
+}
+
+#shopnow:hover {
+    background-color: rgb(0, 97, 0);
+}
